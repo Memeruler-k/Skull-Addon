@@ -3,9 +3,9 @@
   "id": "addon-template",
   "version": "${version}",
   "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "description": "Skidded Wurst Addon",
   "authors": [
-    "seasnail"
+    "Memeruler_k"
   ],
   "contact": {
     "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"

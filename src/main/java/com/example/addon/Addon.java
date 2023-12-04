@@ -288,6 +288,7 @@ public class Addon extends MeteorAddon {
         Modules.get().add(new ReloadBlocks());
         Modules.get().add(new BedDisabler());
         Modules.get().add(new AutoRespawn());
+        Modules.get().add(new QuartzFarmer());
         // Commands
         Commands.get().add(new CommandExample());
 

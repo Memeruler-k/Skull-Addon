@@ -289,8 +289,25 @@ public class Addon extends MeteorAddon {
         Modules.get().add(new BedDisabler());
         Modules.get().add(new AutoRespawn());
         Modules.get().add(new QuartzFarmer());
+        Modules.get().add(new Censored());
+        Modules.get().add(new CustomPayload());
+        Modules.get().add(new FlyCrash());
+        Modules.get().add(new Food());
+        Modules.get().add(new Netty());
+        Modules.get().add(new NettyOnePacket());
+        Modules.get().add(new NullPointCrash());
+        Modules.get().add(new NullSmasher());
+        Modules.get().add(new SinglePacket());
+        Modules.get().add(new InstantRespawn());
         // Commands
-        Commands.get().add(new CommandExample());
+        Commands.get().add(new StealSession());
+        Commands.get().add(new FindPorts());
+        Commands.get().add(new FindSubDomains());
+        Commands.get().add(new FindServers());
+        Commands.get().add(new PacketCrash());
+        Commands.get().add(new Gamemode());
+        Commands.get().add(new Spoof());
+        Commands.get().add(new BungeeSpoof());
 
         // HUD
         Hud.get().register(HudExample.INFO);

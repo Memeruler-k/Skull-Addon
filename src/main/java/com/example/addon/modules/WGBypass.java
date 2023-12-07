@@ -5,6 +5,6 @@ import meteordevelopment.meteorclient.systems.modules.Module;
 
 public class WGBypass extends Module {
     public WGBypass() {
-        super(Addon.CATEGORY, "WGBypass", "Bypass World Guard.");
+        super(Addon.CATEGORY, "WG Bypass", "Bypass World Guard.");
     }
 }

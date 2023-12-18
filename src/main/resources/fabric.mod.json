@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "addon-template",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "Skidded Wurst Addon",
+  "name": "Skull Addon",
+  "description": "Overpowered Addon",
   "authors": [
     "Memeruler_k"
   ],

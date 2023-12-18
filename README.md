@@ -1,6 +1,9 @@
 # Skull Addon for Meteor Client
 
-Currently in Beta Development and testing.
+Currently in Development and testing.
+
+Discontinued cuz im dumb with coding and have many errors lol.If you can help me add me on discord
+Discord:Memeruler_k#8517
 
 Requirements
 - Minecraft 1.20.2

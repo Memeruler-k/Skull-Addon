@@ -1,8 +1,8 @@
-# Meteor Addon Template
+# Skull Addon for Meteor Client
 
-A template to allow easy usage of the Meteor Addon API.
+Currently in Beta Development and testing.
 
-### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+Requirements
+- Minecraft 1.20.2
+- Fabric 1.20.2
+- Meteor Client

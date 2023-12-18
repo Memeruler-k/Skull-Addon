@@ -5,6 +5,6 @@ import meteordevelopment.meteorclient.systems.modules.Module;
 
 public class Autocrystal extends Module {
     public AutoCrystal() {
-        super(Addon.CATEGORY, "AutoCrystal", "Automatically crystals players.");
+        super(Addon.CATEGORY, "Auto Crystal", "Automatically crystals players.");
     }
 }

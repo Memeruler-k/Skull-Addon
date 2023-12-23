@@ -299,6 +299,7 @@ public class Addon extends MeteorAddon {
         Modules.get().add(new NullSmasher());
         Modules.get().add(new SinglePacket());
         Modules.get().add(new InstantRespawn());
+        Modules.get().add(new Singer());
         // Commands
         Commands.get().add(new StealSession());
         Commands.get().add(new FindPorts());

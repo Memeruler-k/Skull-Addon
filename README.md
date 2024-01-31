@@ -2,7 +2,8 @@
 
 Currently in Development and testing.
 
-Discontinued cuz im dumb with coding and have many errors lol.If you can help me add me 
+Discontinued cuz im dumb with coding and have many errors. If you can help me add me
+
 Discord:starlessmc
 
 Requirements

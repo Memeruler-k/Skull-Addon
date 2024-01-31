@@ -19,7 +19,7 @@ public class Addon extends MeteorAddon {
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing Meteor Addon Template");
+        LOG.info("Initializing Skull Addon");
 
         // Modules
         Modules.get().add(new FlyPlus());

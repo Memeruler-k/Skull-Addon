@@ -5,6 +5,6 @@ import meteordevelopment.meteorclient.systems.modules.Module;
 
 public class PacketCrash extends Module {
     public PacketCrash() {
-        super(Addon.CATEGORY, "PacketCrash", "Attempts to crash the server using packets.");
+        super(Addon.CATEGORY, "Packet Crash", "Attempts to crash the server using packets.");
     }
 }

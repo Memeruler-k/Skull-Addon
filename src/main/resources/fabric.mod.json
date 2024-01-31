@@ -3,7 +3,7 @@
   "id": "addon-template",
   "version": "${version}",
   "name": "Skull Addon",
-  "description": "Overpowered Addon",
+  "description": "Taffy Client V4 Addon",
   "authors": [
     "Memeruler_k"
   ],
@@ -24,8 +24,8 @@
     "meteor-client:color": "225,25,25"
   },
   "depends": {
-    "java": ">=17",
-    "minecraft": ">=${mc_version}",
+    "java": "17",
+    "minecraft": "1.20.2",
     "meteor-client": "*"
   }
 }

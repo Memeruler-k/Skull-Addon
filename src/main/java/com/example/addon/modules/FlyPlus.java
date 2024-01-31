@@ -5,6 +5,6 @@ import meteordevelopment.meteorclient.systems.modules.Module;
 
 public class FlyPlus extends Module {
     public FlyPlus() {
-        super(Addon.CATEGORY, "Fly+", "Bypass Fly for Certain AntiCheats or Gamemodes");
+        super(Addon.CATEGORY, "Fly Plus", "Bypass Fly for Certain AntiCheats or Gamemodes");
     }
 }

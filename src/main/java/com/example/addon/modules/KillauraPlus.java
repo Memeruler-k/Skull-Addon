@@ -3,8 +3,8 @@ package com.example.addon.modules;
 import com.example.addon.Addon;
 import meteordevelopment.meteorclient.systems.modules.Module;
 
-public class ModuleExample extends Module {
-    public ModuleExample() {
-        super(Addon.CATEGORY, "KillauraPlus", "Bypass Killaura for Certain AntiCheats or Gamemodes");
+public class KillauraPlus extends Module {
+    public KillauraPlus() {
+        super(Addon.CATEGORY, "Killaura+", "Bypass Killaura for Certain AntiCheats or Gamemodes");
     }
 }

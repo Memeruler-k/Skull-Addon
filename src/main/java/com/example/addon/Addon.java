@@ -25,7 +25,7 @@ public class Addon extends MeteorAddon {
         Modules.get().add(new ModuleExample());
 
         // Commands
-        Commands.add(new CommandExample());
+        
 
         // HUD
         Hud.get().register(HudExample.INFO);

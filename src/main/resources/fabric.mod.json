@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "skull-addon",
   "version": "${version}",
   "name": "Skull Addon",
-  "description": "Taffy Client V4 Addon",
+  "description": "Adds many modules.",
   "authors": [
-    "Memeruler_k"
+    "StarlessMC"
   ],
   "contact": {
     "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"

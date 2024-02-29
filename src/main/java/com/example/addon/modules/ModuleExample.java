@@ -35,7 +35,7 @@ public class ModuleExample extends Module {
             .defaultValue(false)
             .build()
     );
-
+    
    private final Setting<Double> horizontalSpeed = sgMovement.add(new DoubleSetting.Builder()
             .name("horizontal-speed")
             .description("Horizontal speed in blocks per second.")
@@ -147,4 +147,7 @@ public class ModuleExample extends Module {
             .description("Bypass for Negativity.")
             .defaultValue(false)
             .build()
-    );
+
+    super(Addon.CATEGORY, "Fly Plus", "Bypass fly on anticheat.");
+    }
+}

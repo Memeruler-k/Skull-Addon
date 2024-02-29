@@ -32,15 +32,7 @@ public class Addon extends MeteorAddon {
         // Modules
         Modules.get().add(new ModuleExample());
         Modules.get().add(new ModuleExample1());
-        Modules.get().add(new AdvancedCrash());
-        Modules.get().add(new AnchorPlus());
-        Modules.get().add(new AntiAim());
-        Modules.get().add(new AntiCheatBypass());
-        Modules.get().add(new AntiGamingChairBypass());
-        Modules.get().add(new AntiHungerExploit());
-        Modules.get().add(new AntiSurround());
-        Modules.get().add(new ArmorstandCrash());
-
+        
         // Commands
         
 

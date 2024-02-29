@@ -148,6 +148,6 @@ public class ModuleExample extends Module {
             .defaultValue(false)
             .build()
                                                             
-   super(Addon.CATEGORY, "Fly Plus", "Bypass fly on anticheat.");
+   super(Addon.CATEGORY, "Fly Plus", "Bypass fly on anticheats.");
 
     }

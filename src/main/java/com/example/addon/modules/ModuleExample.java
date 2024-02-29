@@ -147,7 +147,7 @@ public class ModuleExample extends Module {
             .description("Bypass for Negativity.")
             .defaultValue(false)
             .build()
+                                                            
+   super(Addon.CATEGORY, "Fly Plus", "Bypass fly on anticheat.");
 
-    super(Addon.CATEGORY, "Fly Plus", "Bypass fly on anticheat.");
     }
-}

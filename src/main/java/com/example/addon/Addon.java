@@ -1,15 +1,16 @@
 package com.example.addon;
 
 import com.example.addon.hud.HudExample;
+import com.example.addon.modules.AdvancedCrash;
+import com.example.addon.modules.AnchorPlus;
+import com.example.addon.modules.AntiAim;
+import com.example.addon.modules.AntiCheatBypass;
+import com.example.addon.modules.AntiGamingChairCrash;
+import com.example.addon.modules.AntiHungerExploit;
+import com.example.addon.modules.AntiSurround;
+import com.example.addon.modules.ArmorstandCrash;
 import com.example.addon.modules.ModuleExample;
 import com.example.addon.modules.ModuleExample1;
-import com.example.addon.modules.Bypass;
-import com.example.addon.modules.Crash;
-import com.example.addon.modules.Render;
-import com.example.addon.modules.Player;
-import com.example.addon.modules.Exploits;
-import com.example.addon.modules.Fun;
-import com.example.addon.modules.Troll;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.commands.Commands;
@@ -31,6 +32,14 @@ public class Addon extends MeteorAddon {
         // Modules
         Modules.get().add(new ModuleExample());
         Modules.get().add(new ModuleExample1());
+        Modules.get().add(new AdvancedCrash());
+        Modules.get().add(new AnchorPlus());
+        Modules.get().add(new AntiAim());
+        Modules.get().add(new AntiCheatBypass());
+        Modules.get().add(new AntiGamingChairBypass());
+        Modules.get().add(new AntiHungerExploit());
+        Modules.get().add(new AntiSurround());
+        Modules.get().add(new ArmorstandCrash());
 
         // Commands
         

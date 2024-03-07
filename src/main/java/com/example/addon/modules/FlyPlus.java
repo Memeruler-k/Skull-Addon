@@ -3,8 +3,8 @@ package com.example.addon.modules;
 import com.example.addon.Addon;
 import meteordevelopment.meteorclient.systems.modules.Module;
 
-public class ModuleExample extends Module {
-    public ModuleExample() {
+public class FlyPlus extends Module {
+    public FlyPlus() {
         super(Addon.CATEGORY, "Fly Plus", "Bypass fly.");
     }
 }

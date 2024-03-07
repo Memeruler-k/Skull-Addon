@@ -20,10 +20,10 @@ public class Addon extends MeteorAddon {
         LOG.info("Initializing Skull Addon");
 
         // Modules
-        Modules.get().add(new ModuleExample());
+
 
         // Commands
-        Commands.add(new CommandExample());
+
 
         // HUD
         Hud.get().register(HudExample.INFO);

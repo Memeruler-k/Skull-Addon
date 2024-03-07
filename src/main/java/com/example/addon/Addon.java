@@ -1,16 +1,8 @@
 package com.example.addon;
 
-import com.example.addon.hud.HudExample;
-import com.example.addon.modules.AdvancedCrash;
-import com.example.addon.modules.AnchorPlus;
-import com.example.addon.modules.AntiAim;
-import com.example.addon.modules.AntiCheatBypass;
-import com.example.addon.modules.AntiGamingChairCrash;
-import com.example.addon.modules.AntiHungerExploit;
-import com.example.addon.modules.AntiSurround;
-import com.example.addon.modules.ArmorstandCrash;
-import com.example.addon.modules.ModuleExample;
-import com.example.addon.modules.ModuleExample1;
+import com.example.addon.commands.*;
+import com.example.addon.hud.*;
+import com.example.addon.modules.*;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.commands.Commands;
@@ -31,10 +23,9 @@ public class Addon extends MeteorAddon {
 
         // Modules
         Modules.get().add(new ModuleExample());
-        Modules.get().add(new ModuleExample1());
-        
+
         // Commands
-        
+        Commands.add(new CommandExample());
 
         // HUD
         Hud.get().register(HudExample.INFO);
